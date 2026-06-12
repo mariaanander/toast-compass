@@ -186,7 +186,7 @@ Ask:
 
 Then route based on what they're trying to understand:
 - Behavioral data → Amplitude first, then qualitative follow-up
-- Sentiment → quick survey or interviews
+- Sentiment → quick interviews or a targeted conversation with a CSM who knows the space
 - Specific friction point → moderated usability testing
 
 ---
@@ -230,8 +230,6 @@ Answer directly and confidently — this is one of the most common questions peo
 > For moderated interviews (discovery, usability, concept testing): **5 participants** is the sweet spot. Research consistently shows that 5 well-recruited people will surface 80-85% of the patterns that matter. More sessions give you diminishing returns and a much bigger time investment. The exception: if you're studying two very distinct audiences, do 5 per group.
 
 > For unmoderated studies (Maze prototype tests, card sorts): **10 completes** is the standard. Because there's no conversation to go deeper, you need a bit more volume to spot clear patterns — but 10 is still enough to see what's working and what isn't.
-
-> For surveys: it depends on what you're trying to do. Directional signal? 50-100 responses is plenty. Statistical significance across segments? You'd need more — and that's when it's worth talking to a Compass Coach about the right sample size for your question.
 
 > The most important thing isn't the number — it's recruiting the right people. Five perfect participants beats fifteen wrong ones every time."
 
@@ -377,9 +375,9 @@ Close with:
 
 > Days 1-2: Sharpen the one question you most need to answer. Not three questions — one. The tighter the focus, the faster the signal.
 
-> Day 2-3: Recruit. For unmoderated (Maze), you can have results in 48 hours with the right panel. For moderated, Targeted Outreach to a warm list can get you 3-4 sessions scheduled fast.
+> Day 2-3: Recruit. Targeted Outreach to a warm list can get you 3-4 sessions scheduled fast. If you already have contacts, you could have your first session within 48 hours.
 
-> Days 3-5: Run sessions or collect results. Three moderated sessions or 10 unmoderated completes will give you directional signal on one focused question.
+> Days 3-5: Run sessions. Three moderated sessions will give you clear directional signal on one focused question.
 
 > Day 5: Synthesize and share. One Slack message, three takeaways, one decision it enables.
 
@@ -477,13 +475,15 @@ Close with:
 
 > "Yes — and lightweight research done well beats thorough research done too late. Here's the fastest credible path based on what you need:
 
-> Need directional signal on a specific question in under a week: 3 moderated interviews with warm contacts via Targeted Outreach, or 10 unmoderated Maze completes if you have a prototype. Focused task, focused question, synthesize in one session.
+> Need behavioral signal on a specific question in under a week: 2-3 moderated sessions via Targeted Outreach to a warm list. If you already have customer contacts, you can have sessions scheduled within 48 hours. Even 2 sessions will surface the most critical issues — and you'll get the 'why' behind the behavior, not just the 'what.'
 
 > Need to gut-check an assumption before a planning meeting: one conversation with a Compass Coach, a quick review of existing pNPS or Reforge data, or a single customer call with a CSM who knows the space.
 
-> Need to validate before you ship: even two or three sessions with the right participants can surface the most critical issues. It's not statistically significant — but it's enough to catch the thing that would have embarrassed you post-launch.
+> Need to validate before you ship: 3 focused sessions with the right participants will catch the thing that would have embarrassed you post-launch. Tight scope, one task, targeted recruit.
 
-> What makes lightweight research fail: trying to answer too many questions at once. Pick one. The constraint is actually what makes fast research useful."
+> What makes lightweight research fail: trying to answer too many questions at once, or substituting a survey for a real conversation. Surveys tell you how many people are frustrated — they don't tell you where or why the flow breaks. Pick one behavioral question, talk to 2-3 people, and you'll have something you can actually act on.
+
+> What's the one thing you most need to know — and do you have any warm customer contacts we could reach out to directly?"
 
 ---
 
@@ -674,15 +674,64 @@ Close with:
 
 ## One-Off Questions — Cross-Role
 
-**"What's the difference between qualitative and quantitative research?"**
+**"I don't have time to recruit — is there anything I can do with what we already have?"**
 
-> "Two different lenses on the same reality — and you usually need both.
+> "Yes — and this is actually a great place to start before running new research. Here's what might already exist:
 
-> **Qualitative** is about depth. It's open-ended conversations, observations, interviews — the 'why' and 'how' of human behavior. Five people talking for 30 minutes each will tell you things a thousand survey responses never could. The tradeoff: you can't generalize to everyone from a small sample.
+> **Support tickets and pNPS verbatims** — Salesforce tickets and pNPS open-ended comments are an underutilized goldmine. Pull tickets related to your topic, look for recurring language and patterns, and you'll often have a clearer picture of the problem space within a few hours. No recruiting needed.
 
-> **Quantitative** is about scale. Surveys, analytics, behavioral data — the 'how many' and 'how often.' It tells you what's happening across your whole user base. The tradeoff: it rarely tells you why.
+> **Chorus recordings** — search existing Chorus call recordings for conversations related to what you're trying to understand. Churn calls are especially useful post-launch. You're mining signal that's already been collected.
 
-> The best research uses both. Quantitative tells you where to look — 'checkout drop-off is highest on step 3.' Qualitative tells you why — 'operators are confused by the customization options on step 3 because they don't match how they think about their menu.' Together, they give you confidence and direction."
+> **Amplitude data** — if your question is behavioral (where do people drop off, which features have low adoption, what flows are people abandoning), Amplitude can tell you where to look before you decide what to study.
+
+> **App store and review sites** — Toast's app store reviews, G2, and Capterra give you unprompted customer language about what's working and what isn't. Great for discovering problems your team hasn't named yet.
+
+> **Community listening** — the Toast Community and third-party forums often surface the things customers care about enough to post publicly.
+
+> Which of these feels most relevant to what you're trying to figure out? I can help you think through how to synthesize what's already there."
+
+---
+
+**"I need signal fast but don't want to go through the full recruiting process — any shortcuts?"**
+
+> "Yes — two paths that can get you real signal quickly without a full recruiting setup:
+
+> **Internal Toaster Interviews** — the fastest proxy for customer signal that exists. CSMs, Implementation Specialists, and Sales reps talk to customers every single day. Slack a few of them, offer a Bonusly as a thank-you, and treat it like a focused 30-minute conversation. You'll get directional signal in hours, not days. Just remember — they're a proxy, not the customer. Use it to generate hypotheses, not to make final calls.
+
+> **Targeted Outreach to a warm list** — if you already have customer contacts, you can have 2-3 sessions scheduled within 48 hours. Even two well-recruited moderated sessions will surface the most critical patterns.
+
+> What's the one thing you most need to know — and do you have any warm contacts or internal people who might know the answer?"
+
+---
+
+**"What are Internal Toaster Interviews and when should I use them?"**
+
+> "Internal Toaster Interviews are conversations with Toast employees who are close to customers — CSMs, Implementation Specialists, Sales reps. They're not the customer, but they're the next best thing when you need signal fast.
+
+> When to use them:
+> - Early discovery when you want directional signal before committing to a full study
+> - Before recruiting external customers, to pressure-test your assumptions and sharpen your questions
+> - When you need to move in days not weeks and recruiting externally isn't realistic
+
+> How to set one up: Slack the person directly, explain what you're trying to learn, and offer a Bonusly as a thank-you for their time. Treat it like a real interview — prepare your questions, take notes, look for patterns across multiple conversations.
+
+> When NOT to rely on them: validating a specific design decision, testing a prototype, or making a final call on a major roadmap item. For those, you need the actual customer."
+
+---
+
+**"We went on a restaurant visit — how do we get the most out of what we observed?"**
+
+> "Restaurant visits are some of the richest research you can do — you see things in context that customers would never think to mention on a remote call. Here's how to make the most of what you observed:
+
+> Debrief immediately. The conversation you have in the car on the way back is as valuable as the notes. Capture what surprised you, what confirmed existing assumptions, and what you want to explore further.
+
+> Separate observation from interpretation. 'The owner pulled out a notebook to write down the order before entering it into Toast' is an observation. 'They don't trust the system to save their work' is an interpretation. Both are valuable — but keep them separate.
+
+> Look for workarounds. The manual processes, the sticky notes, the paper backups — these are where the real problems live. Every workaround is a feature request in disguise.
+
+> Connect it back to your learning goal. What did you see that answers, challenges, or complicates what you set out to learn? That's the through-line for your synthesis.
+
+> For guidance on setting up restaurant visits, check the In Person Learning section of the Compass Coda doc."
 
 ---
 
@@ -996,7 +1045,7 @@ Ask:
 
 Then route based on what they're trying to understand:
 - Behavioral data → Amplitude first, then qualitative follow-up
-- Sentiment → quick survey or interviews
+- Sentiment → quick interviews or a targeted conversation with a CSM who knows the space
 - Specific friction point → moderated usability testing
 
 ---
