@@ -1,79 +1,80 @@
 # Toast Compass — Setup Guide
 
-Get up and running in about 2 minutes. No installs, no API keys.
+Get up and running in about 2 minutes. No API keys, no Python, no AWS setup.
 
 ---
 
 ## What you need
 
-- Claude Code installed on your machine (desktop app or VS Code extension)
+- Claude desktop app installed on your machine
 - That's it.
 
 ---
 
 ## Step 1 — Get the skill files
 
-Ask @Maria Anander (or whoever shared this with you) for the `compass-skill` folder, or copy it directly from:
-```
-~/.claude/skills/compass/
-```
-on a machine that already has it set up.
+Download the `compass-skill` ZIP from the Slack DM and unzip it. You should have a folder called `compass-skill` containing these files:
 
-The folder should contain these files:
 ```
 SKILL.md
-coordinator.md
-agent-1.md
-agent-2.md
-agent-2b.md
-agent-2c.md
-agent-3.md
-agent-4.md
+install.command
+toast-compass-coordinator.md
+toast-compass-agent-1-objective-method.md
+toast-compass-agent-2-recruitment.md
+toast-compass-agent-2b-maze-study-setup.md
+toast-compass-agent-2c-maze-recruitment.md
+toast-compass-agent-3-interview-guide-builder-session-coach.md
+toast-compass-agent-4-synthesis-shareout.md
 ```
 
 ---
 
-## Step 2 — Put the files in the right place
+## Step 2 — Run the installer
 
-On your machine, the files need to go here:
+Double-click `install.command` in the `compass-skill` folder.
+
+If you see a security warning, right-click the file and select **Open**, then click **Open** again to confirm.
+
+A terminal window will open and run the installer. When you see:
+
 ```
-~/.claude/skills/compass/
+✓ Toast Compass installed successfully.
 ```
 
-In your terminal:
-
-```bash
-mkdir -p ~/.claude/skills/compass
-```
-
-Then copy all 8 files into that folder.
+Press Enter to close the window.
 
 ---
 
-## Step 3 — Use it
+## Step 3 — Use Compass
 
-Open Claude Code and type:
-```
-/compass
-```
+**Claude Code desktop (Code tab):**
+1. Open the Claude desktop app
+2. Click the **Code tab** (`</>`) in the upper right corner
+3. Type `/compass` and hit enter
 
-Compass will greet you and ask what you're trying to figure out.
+**Terminal:**
+1. Open Terminal
+2. Type `claude` to start a Claude Code session
+3. Type `/compass` and hit enter
 
----
-
-## That's it
-
-No Python. No API key. No AWS setup. Claude Code handles everything.
+Compass will introduce itself and ask what you're trying to figure out!
 
 ---
 
 ## Troubleshooting
 
-**`/compass` doesn't show up**
-→ Make sure `SKILL.md` is in `~/.claude/skills/compass/` (not inside a subfolder)
+**`/compass` doesn't appear**
+→ Make sure the installer ran successfully and you see `✓ Toast Compass installed successfully.` If not, try running it again.
+
+**Security warning on install.command**
+→ Right-click the file → Open → Open. This is a Mac security prompt for files downloaded from the internet.
 
 **Something feels off mid-conversation**
-→ Type `/compass` again to re-load the skill
+→ Type `/compass` again to restart the skill in a fresh session.
 
 **Questions**
-→ #compass on Slack or reach out to @Maria Anander
+→ Reach out to @Maria Anander on Slack
+
+---
+
+*Toast Compass — built by Design and Product Ops*
