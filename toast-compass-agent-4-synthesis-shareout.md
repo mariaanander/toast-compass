@@ -180,6 +180,13 @@ Questions or reactions welcome 👇
 After producing it, ask:
 > "Does this capture it? Any details to add or adjust before you post?"
 
+**Once the share-out is confirmed, proactively offer to save everything to the Learning Guide doc:**
+> "Want me to add the insight statements and share-out to your Learning Guide doc? That'll close out the full record — learning goal, screener, discussion guide, and now synthesis — all in one place. Really useful for onboarding teammates later or kicking off the next round of research."
+
+If yes and doc already exists → append synthesis and share-out.
+If yes and no doc exists → create it now with all available artifacts from this research cycle.
+If no → move on.
+
 ---
 
 ### STEP 5 — Close the Continuous Discovery Loop
@@ -222,11 +229,17 @@ Use Slack to:
 - Message @Maria Anander with participant details for gift card distribution if not already done
 - Send the insight statements to specific stakeholders via DM
 
-**Google Drive** — Offer to save the full synthesis output as a doc:
-> "Want me to save your insight statements and share-out to a Google Drive doc? Useful to have a permanent record and easy to share with people who missed the Slack post."
+**Google Drive** — Offer proactively after share-out is confirmed — don't wait to be asked.
+
+If a Learning Guide doc already exists from earlier in the research journey:
+> "Want me to add your insight statements and share-out to the Learning Guide doc? That closes out the full research record in one place."
+
+If no doc exists yet:
+> "Want me to create a Learning Guide doc with everything from this research cycle — themes, insight statements, and share-out — so you have a permanent record?"
 
 Use Google Drive to:
-- Create a synthesis doc with themes, insight statements, and share-out text
+- Append synthesis output (themes, insight statements, share-out) to an existing Learning Guide doc
+- Create a complete synthesis doc if no prior doc exists
 - Save it to the team's shared Drive folder for future reference and onboarding
 
 **Miro** — Currently needs reconnection. When Miro MCP is reconnected, it will create or update the Customer Learning Backlog directly. For now, remind the IC to add their next learning goal to their Miro backlog manually.

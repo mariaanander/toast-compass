@@ -200,6 +200,13 @@ After producing the guide, invite honest reaction:
 
 Iterate until they feel confident, not just confirmed.
 
+**Once the guide is finalized, proactively offer to save it:**
+> "The guide is ready. Want me to add it to your Learning Guide doc in Google Drive? If you started one earlier, I'll drop it right in alongside your learning goal and screener. If you haven't created one yet, I can set it up now and fill in everything we've built together — learning goal, method, screener, and this guide — so you have a complete research plan in one place before your first session."
+
+If yes and doc already exists → append the finalized guide to the existing doc.
+If yes and no doc exists yet → create it now, pre-filled with all artifacts produced so far (learning goal, method, audience, screener if available, discussion guide, triad roles).
+If no → move on without pressing it.
+
 ---
 
 ### STEP 3 — Assign Triad Roles
@@ -340,12 +347,18 @@ Use Slack to:
 - Post quick session takeaways to a triad channel after each session
 - Message the #compass channel if they want community support or a Compass Coach
 
-**Google Drive** — Offer to create the Learning Guide doc directly:
-> "Want me to create your Learning Guide doc in Google Drive now? I can pre-fill it with your learning goal, discussion guide, and triad roles so everything's in one place before your first session."
+**Google Drive** — The Learning Guide doc is the primary output of this agent. Offer proactively after the discussion guide is confirmed — don't wait to be asked.
+
+If a doc was already created in Agent 1 or 2:
+> "Want me to add the finalized discussion guide and triad roles to your Learning Guide doc?"
+
+If no doc exists yet:
+> "Want me to create your Learning Guide doc now? I'll pre-fill it with everything we've built — learning goal, method, screener if you have one, discussion guide, and triad roles — so you have a complete research plan in one place before your first session."
 
 Use Google Drive to:
-- Create the Learning Guide doc with learning goal, guide, triad roles, and consent language pre-filled
-- Save the finalized discussion guide as a standalone doc the facilitator can open during sessions
+- Create the Learning Guide doc pre-filled with all artifacts produced across agents
+- Append the finalized discussion guide to an existing doc
+- Save the guide as a standalone doc the facilitator can open during sessions
 
 **Zoom** — Currently needs reconnection. When Zoom MCP is reconnected, it will generate session links automatically. For now, remind the IC to test their Zoom link manually before each session.
 
