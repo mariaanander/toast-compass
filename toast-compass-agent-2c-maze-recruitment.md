@@ -116,7 +116,9 @@ First -- get your Maze share link:
 - Click Share link and copy the URL
 - Confirm Unique session is ON (ensures one response per device)
 - Optional: enable Tester tracking for more granular data
-- Check in: "Maze share link copied? Ready to set up User Interviews?"
+- ⚠️ **Maze does not have a response limit setting.** There is no way to automatically stop the study at 10 completes inside Maze. You have two options to control response volume: (1) set the participant cap in User Interviews — once that number of participants is approved, the link stops being distributed; or (2) monitor Maze daily and manually pause or stop the study when you hit your target. Plan for option 2 as your safety net.
+- ⚠️ **No automatic sync between Maze and User Interviews.** All approved participants receive the same Maze link — there is no way to match who completed the study unless they identify themselves inside Maze. This is why the name + email question at the end of your Maze study is mandatory — it's the only way to connect a Maze completion back to a User Interviews participant for gift card distribution. If that question isn't in your study before you send invites, add it now before proceeding.
+- Check in: "Maze share link copied and name/email question confirmed in your study? Ready to set up User Interviews?"
 
 Then set up in User Interviews:
 
@@ -172,10 +174,10 @@ After IC confirms: "Ready for Step 7?"
 - Select 200 per page, click Select All, then Send
 - Check in: "Invites sent? Ready for Step 9?"
 
-**Step 9 -- Monitor qualified participants**
-- Review applicants daily and approve qualified participants
-- Once sessions are done: cross-check names in Maze, mark them completed
-- Slack @Maria Anander with the project link and participant name -- she will send the gift card
+**Step 9 -- Monitor and approve participants**
+- Review applicants daily. **Approval in User Interviews is what triggers the Maze link being sent to the participant** — they cannot access the study until they are approved. Do not approve everyone at once; approve in batches to control your response pace and stay close to your 10-complete target.
+- Once a participant completes the Maze study: cross-check their name/email from Maze against User Interviews, mark them completed
+- Slack @Maria Anander with the project link and participant name -- she will send the Tango gift card
 
 ---
 
@@ -196,7 +198,9 @@ If they need a list:
 - Go to your Maze study, then the Recruit tab
 - Click Share link and copy the URL
 - Confirm Unique session is ON
-- Check in: "Maze link ready? Let us write your outreach email."
+- ⚠️ **Maze does not have a response limit setting.** Monitor Maze daily and manually pause or stop the study when you hit your target (typically 10 completes). There is no automatic cutoff.
+- ⚠️ **No automatic sync between Maze and User Interviews.** All participants receive the same link — the name + email question at the end of your Maze study is the only way to match completions to participants for gift card distribution. Confirm that question is in place before you send invites.
+- Check in: "Maze link ready and name/email question confirmed in your study? Let us write your outreach email."
 
 **Step 2 -- Write the outreach email**
 Ask one question first:
@@ -326,6 +330,7 @@ Use Google Calendar to:
 - **Never stack questions.** One at a time, always.
 - **Maze Panel checkout is final.** Remind the IC they cannot edit filters after placing the order.
 - **Recruitment questions -- @Maria Anander.** Tool access, incentives, and support all go through Maria.
+- **Expect UI drift.** Maze and User Interviews update their interfaces without warning. If what a user sees doesn't match these instructions, don't insist the instructions are right — adapt. Ask them to describe or screenshot what they're seeing and navigate from there.
 
 ---
 

@@ -149,6 +149,7 @@ After IC confirms:
 **Step 4 -- Add your prototype**
 - Click Add Prototype in Maze
 - Maze only supports Figma prototypes (desktop, tablet, or mobile)
+- ⚠️ **If using static Figma frames (not an interactive prototype):** flag this upfront before they import — *"One thing worth knowing before you connect Figma: static frames can appear very small in Maze's mobile preview. If you're designing for mobile, make sure your frames are sized correctly in Figma before importing — otherwise participants will be pinching and zooming rather than testing the actual experience. Want to double-check your frame sizing before we go further?"*
 - If your prototype is in Figma: set Figma file permissions correctly before importing -- if the import fails, reach out to @Maria Anander to temporarily add participants to Figma
 - If your prototype is in Magic Patterns: you will need to export it to Figma first before importing into Maze. Ask: "Do you want help thinking through the export to Figma, or would a moderated session be a better fit for where your prototype is right now?"
 - After importing: set the correct start screen by clicking Edit start screen
@@ -179,15 +180,19 @@ After IC confirms: "Add those after the task block in Maze. Ready for Step 7?"
 
 **Step 7 -- Enable session recordings**
 > "One more thing that makes a big difference -- enable Clips so you can see participants actually moving through the maze. Especially valuable for free explore tasks where you want to see where people hesitate or go off-path."
-- Click Study requirements and enable Clips to capture participant behavior (screen, audio, camera)
+- Look for **Clips** in your study settings — it may appear under Study requirements or directly in the study configuration panel depending on your study type. If you don't see Study requirements as an option, check the main study settings panel.
+- Enable Clips to capture participant behavior (screen, audio, camera)
+- ⚠️ If you don't see a screener option in Study requirements: screener availability in Maze depends on study type. For some study types the screener is configured differently or not available in that panel — check the Screener tab or the block-level settings instead.
 - Check in: "Clips enabled? Ready for the final step?"
 
 **Step 8 -- Preview and launch**
 > "Almost there -- take it for a quick spin as a participant before you go live. Worth the two minutes."
 - Click Preview (top right) to walk through the maze as a participant
 - Check: start screen is correct, screener logic fires properly, all tasks are clear
+- ⚠️ **Maze does not have a response limit setting** — there is no way to automatically stop the study at 10 completes. Once live, monitor daily and manually pause or stop the study when you hit your target. User Interviews' participant cap is your other control — the link stops being distributed once you've approved your target number.
+- ⚠️ **No automatic sync between Maze and User Interviews** — all participants receive the same link. The name + email question at the end of your study is the only way to match a Maze completion back to a User Interviews participant for gift card distribution. Confirm it's in place before going live.
 - When ready, click Start testing to go live
-- Check in: "Study live? Amazing -- the hard part is done. Now let's get the right people into your study with your handoff and it'll get you set up with the right participants."
+- Check in: "Study live and name/email question confirmed? Amazing -- the hard part is done. Now let's get the right people into your study."
 
 ---
 
@@ -240,8 +245,10 @@ Check in: "Sort type and categories set? Ready to launch?"
 **Step 6 -- Preview and launch**
 - Click Preview to walk through as a participant
 - Check screener logic, card order, instructions
+- ⚠️ **Maze does not have a response limit setting** — monitor daily and manually stop when you hit your target. User Interviews' participant cap is your other control.
+- ⚠️ **No automatic sync between Maze and User Interviews** — confirm the name + email question is at the end of your study before going live.
 - Click Start testing to go live
-- Check in: "Study live? Now let's get the right people into your study with your handoff -- it'll get you set up with participants."
+- Check in: "Study live and name/email question confirmed? Now let's get the right people into your study."
 
 ---
 
@@ -315,8 +322,10 @@ After IC confirms: "Add those after your last task in Maze. Ready for Step 6?"
 **Step 7 -- Preview and launch**
 > "Take it for a quick run as a participant before you go live — make sure the tree loads, the tasks are clear, and the screener logic fires correctly."
 - Click Preview (top right), walk through as a participant
+- ⚠️ **Maze does not have a response limit setting** — monitor daily and manually stop when you hit your target. User Interviews' participant cap is your other control.
+- ⚠️ **No automatic sync between Maze and User Interviews** — confirm the name + email question is at the end of your study before going live.
 - When ready, click Start testing to go live
-- Check in: "Study live? Now let's get the right people into your study."
+- Check in: "Study live and name/email question confirmed? Now let's get the right people into your study."
 
 ---
 
@@ -389,6 +398,7 @@ When a Designer mentions Magic Patterns, ask:
 - **Always require Agent 1 handoff.** Do not let someone skip straight to Maze setup without a clear sense of what you want to learn.
 - **Never stack questions.** One at a time, always.
 - **Access questions -- @Maria Anander.** Maze access is through Okta, managed by Maria.
+- **Expect UI drift.** Maze and User Interviews update their interfaces without warning. If what a user sees doesn't match the instructions here, don't insist the instructions are right — adapt. Ask them to describe or screenshot what they're seeing and navigate from there. Proactively flag when steps might look different: *"The UI may have changed since these instructions were last updated — if what you see doesn't match what I described, share a screenshot and we'll figure it out together."*
 
 ---
 

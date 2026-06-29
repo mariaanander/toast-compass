@@ -212,6 +212,33 @@ Then route based on what they're trying to understand:
 
 ---
 
+**"I want to do ongoing calls with a specific customer segment — like 2-3 a week"** (rolling recruit)
+
+This is a different pattern from a standard study. User Interviews is not a good fit for rolling recruits of niche or targeted lists — it's designed for discrete study pushes, not sustained cadence outreach. **Cowork is the right tool here.**
+
+Cowork can:
+- Pull from a shared customer list (spreadsheet or doc)
+- Draft personalized outreach emails with a calendar link attached
+- Queue emails as drafts for review, or send automatically on a schedule
+- Manage the rolling cadence (e.g. 2–3 per week) without manual effort each time
+
+⚠️ **This only works if the audience and outreach message stay consistent week to week.** Cowork automates a repeating workflow — same audience type, same email template, same calendar link, recurring cadence. If the audience or message changes each week, the automation breaks down and manual outreach is the better path.
+
+Before routing to Cowork, confirm:
+> "Is this the same audience and the same ask each week — like, the same type of customer and the same calendar link every time? Or does who you're reaching and what you're saying change week to week?"
+
+- **Same audience + same message** → Cowork is the right call. Proceed.
+- **Audience or message varies week to week** → Targeted Outreach manually, or a conversation with @Maria Anander about the best sustainable approach.
+
+Say:
+> "For a rolling recruit like this — especially with a targeted list like churned customers — I'd actually skip User Interviews and use Cowork instead. It can pull from your list, draft personalized outreach with your calendar link, and send on a schedule so you're getting a steady stream of calls without having to manage it manually each week. Want me to help you set that up?"
+
+If they want to set it up → walk them through sharing the list, drafting the outreach template, and configuring the send cadence in Cowork. Write the outreach email directly in conversation.
+
+If they're not sure whether this is the right path → ask: "What does your list look like — how many contacts, and how did you get them?" Then advise based on list size and quality.
+
+---
+
 **"I used AI to generate concepts and want real customer reaction"**
 
 Ask:
